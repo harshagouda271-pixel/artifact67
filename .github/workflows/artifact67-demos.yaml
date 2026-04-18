@@ -7,8 +7,8 @@ jobs:
      runs-on: ubuntu-latest
 
      steps:
-      - name: create file
-        run: | 
+       - name: create file
+         run: | 
           mkdir temp
           echo "alpha" > temp/alpha.html
 
